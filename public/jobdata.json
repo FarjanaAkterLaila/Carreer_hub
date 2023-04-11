@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "company_logo": "https://i.ytimg.com/vi/h8eB71XmTVo/hqdefault.jpg",
+        "job_title": "Software Engineer",
+        "company_name": "Software Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are seeking a talented software engineer to join our team and help us build innovative products.",
+        "job_responsibility": "Develop and maintain software applications, participate in code reviews and design discussions, collaborate with cross-functional teams.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software engineering.",
+        "contact_information": {
+            "phone": "555-555-1234",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "https://yt3.googleusercontent.com/ytc/AL5GRJWOEARY668ZyZTZlScNFgrfzWHlDIkjmoeQfmJ_=s900-c-k-c0x00ffffff-no-rj",
+        "job_title": "Data Scientist",
+        "company_name": "Acme Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$130,000 - $160,000",
+        "job_description": "We are looking for a skilled data scientist to help us analyze large datasets and gain insights into our business.",
+        "job_responsibility": "Collect and analyze data, build statistical models, collaborate with cross-functional teams.",
+        "educational_requirements": "Master's degree in Data Science, Statistics, or related field.",
+        "experiences": "3+ years of experience in data science or related field.",
+        "contact_information": {
+            "phone": "555-555-5678",
+            "email": "careers@acme.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "https://media.licdn.com/dms/image/C560BAQH-7BYdCWBNmA/company-logo_200_200/0/1589603595297?e=2147483647&v=beta&t=87UyV755b3fWiysmH93mMke2L6PmcHdSHRgqenEpAGo",
+        "job_title": "UI/UX Designer",
+        "company_name": "Design Co.",
+        "remote_or_onsite": "Remote",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "We are seeking a creative and detail-oriented UI/UX designer to help us create beautiful and user-friendly interfaces.",
+        "job_responsibility": "Design and implement user interfaces, collaborate with product and engineering teams, conduct user research.",
+        "educational_requirements": "Bachelor's degree in Design or related field.",
+        "experiences": "5+ years of experience in UI/UX design.",
+        "contact_information": {
+            "phone": "555-555-9012",
+            "email": "jobs@designco.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://t3.ftcdn.net/jpg/03/55/62/02/360_F_355620210_0CzdGWgzYUtLvbpw83SbgK36WUvgvMxm.jpg",
+        "job_title": "Product Manager",
+        "company_name": "Tech Start-up",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a product manager to help us define and execute our product strategy and roadmap.",
+        "job_responsibility": "Define and prioritize product roadmap, collaborate with engineering and design teams, conduct market research.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in product management.",
+        "contact_information": {
+            "phone": "555-555-3456",
+            "email": "careers@techstartup.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://img.freepik.com/free-vector/logo-template-design_1289-139.jpg",
+        "job_title": "Marketing Manager",
+        "company_name": "Marketing Agency",
+        "remote_or_onsite": "Remote",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $130,000",
+        "job_description": "We are seeking a creative and strategic marketing manager to help us drive growth for our clients.",
+        "job_responsibility": "Develop and execute marketing campaigns, analyze data and metrics, collaborate with clients and cross-functional teams.",
+        "educational_requirements": "Bachelor's degree in Marketing or related field.",
+        "experiences": "5+ years of experience in marketing or related field.",
+        "contact_information": {
+            "phone": "555-555-7890",
+            "email": "jobs@marketingagency.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://thumbs.dreamstime.com/z/retail-store-logo-design-template-shopping-cart-icon-135610398.jpg",
+        "job_title": "Sales Representative",
+        "company_name": "Retail Company",
+        "remote_or_onsite": "Onsite",
+        "location": "Dallas, TX",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$20 - $30 per hour",
+        "job_description": "We are looking for a part-time sales representative to assist customers and drive sales in our store.",
+        "job_responsibility": "Assist customers with product inquiries and purchases, maintain store appearance and cleanliness.",
+        "educational_requirements": "High school diploma or equivalent.",
+        "experiences": "1+ years of experience in retail or customer service.",
+        "contact_information": {
+            "phone": "555-555-2345",
+            "email": "careers@retailcompany.com"
+        }
+    }
+]

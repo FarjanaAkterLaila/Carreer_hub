@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
  
   return (
-    <div className='bg-light'>
+    <div>
     <Navbar></Navbar>
 
     <Outlet></Outlet>

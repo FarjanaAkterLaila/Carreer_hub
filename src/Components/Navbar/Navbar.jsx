@@ -3,7 +3,7 @@ import './Navbar.css'
 import ActiveLink from '../ActiveLink/ActiveLink';
 const Navbar = () => {
     return (
-        <div className='h-25'>
+        <div className='h-25 bg-light'>
              <nav className="navbar navbar-light justify-content-between px-3 ">
               <h1 class="navbar-brand fw-bolder fs-2 mx-5">FutureCareer</h1>
 
@@ -13,7 +13,7 @@ const Navbar = () => {
             <ActiveLink to="/Blog">Blog</ActiveLink>
             
         </div>
-        <button className="btn fw-bolder fs-5 text-white mx-5">Star Applying</button>
+        <button className="btnwe fw-bolder fs-5 text-white mx-5">Star Applying</button>
       </nav>
         </div>
     );

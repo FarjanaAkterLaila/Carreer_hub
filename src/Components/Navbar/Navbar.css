@@ -4,9 +4,10 @@ img{
     
 }
 
-.btn{
+.btnwe{
     width: 120px;
 height: 50px;
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 8px;
+    border: #7E90FE;
 }

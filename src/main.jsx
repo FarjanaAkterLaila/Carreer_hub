@@ -23,6 +23,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Header></Header>,
+        loader: ()=>fetch('jobdata.json')
         
       },
       {

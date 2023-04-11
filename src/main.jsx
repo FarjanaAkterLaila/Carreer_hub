@@ -14,6 +14,8 @@ import Featured from './Components/Featured';
 import Statistics from './Statistics';
 import AppliedJobs from './Components/AppliedJobs';
 import Blog from './Components/Blog';
+import Jobdetails from './Components/Jobdetails';
+
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,13 @@ const router = createBrowserRouter([
         element:<Blog></Blog>
         
       },
+    
+      {
+        path: 'Jobdetail/:JobdetailId',
+        element:<Jobdetails></Jobdetails>
+        
+      },
+    
      
       
     ]

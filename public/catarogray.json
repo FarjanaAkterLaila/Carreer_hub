@@ -1,0 +1,36 @@
+[
+    {
+          "id":1,
+           "title": "Technology",
+          
+           "readTime":75,
+          "img":"../src/assets/Icons/chip 1.png"
+          
+       },
+    {
+        "id":2,
+            "title": "Marketing",
+          
+           "readTime":100,
+          "img":"../src/assets/Icons/accounts 1.png"
+          
+       },
+    {
+        "id":3,
+           "title": "Finance",
+          
+           "readTime":250,
+           "img":"../src/assets/Icons/business 1.png"
+          
+           
+       },
+    {
+        "id":4,
+           "title": "Healthcare",
+          
+           "readTime":10,
+           "img":"../src/assets/Icons/Frame.png"
+          
+           
+       }
+   ]

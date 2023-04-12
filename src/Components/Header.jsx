@@ -6,9 +6,13 @@ import { useLoaderData } from 'react-router-dom';
 
 
 const Header = () => {
+    const [visidle,setvisible]=useState(4);
     const jobdata = useLoaderData()
     //console.log(jobdata);
     const [bl, setBlog] = useState([])
+    const showMore=()=>{
+        setvisible((prevalue)=> prevalue+3)
+    }
 const handleShowDetails = (id)=>{
     const newBlog = [...bl, id];
     setBlog(newBlog);
@@ -36,7 +40,7 @@ console.log(bl);
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <div className='row row-gap-3 grid px-5 mx-5 pt-3'>
                         {
-                            jobdata.map(job => (<Featured
+                            jobdata.slice(0,visidle).map(job => (<Featured
                                 key={job.id}
                                 job={job} 
                                 handleShowDetails={handleShowDetails}/>)
@@ -44,6 +48,7 @@ console.log(bl);
 
                             // <p className='col-md-1 col-lg-6' key={job.id}>{job.job_title}</p>
                         }
+                         <button onClick={showMore} className="btnwe  fw-bolder fs-5 text-white w-25 ms-auto me-auto mx-5">See More</button>
                     </div>
                 </div>
             </div>

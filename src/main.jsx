@@ -12,17 +12,21 @@ import Header from './Components/Header';
 import Catagory from './Components/Catagory';
 import Featured from './Components/Featured';
 
-import AppliedJobs from './Components/AppliedJobs';
+
 import Blog from './Components/Blog';
 import Jobdetails from './Components/Jobdetails';
 import { productsAndCartData } from './loaders/getCart&ProductsData';
 import Statistics from './Components/Statistics';
+import ErrorPage from './Components/ErrorPage';
+import AppliedList from './Components/AppliedList';
+
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
@@ -36,9 +40,9 @@ const router = createBrowserRouter([
         
       },
       {
-        path: '/Applied Jobs',
-        element:<AppliedJobs></AppliedJobs>,
-        loader: productsAndCartData,
+        path: '/AppliedList',
+        element:<AppliedList></AppliedList>,
+        loader: productsAndCartData
         
       },
       {
@@ -48,10 +52,11 @@ const router = createBrowserRouter([
       },
     
       {
-        path: 'Jobdetail/:JobdetailId',
+        path: '/Jobdetail/:JobdetailId',
         element:<Jobdetails></Jobdetails>
         
       },
+      
     
      
       

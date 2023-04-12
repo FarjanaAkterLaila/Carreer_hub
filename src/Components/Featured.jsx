@@ -4,7 +4,8 @@ import dollarpic from '../assets/Icons/Frame.png'
 import { Link, useNavigate } from 'react-router-dom';
 const Featured = ({ job , handleShowDetails }) => {
   const navigate = useNavigate()
-  //console.log(job.id)
+  // slice(0, 4)
+  // //console.log(job.id)
    const {id} = job
   return (
     <div class="col-sm-5">

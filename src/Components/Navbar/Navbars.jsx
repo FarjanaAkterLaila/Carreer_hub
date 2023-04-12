@@ -19,9 +19,9 @@ const Navbars = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-             
+             <ActiveLink to="/" >Home</ActiveLink>
             <ActiveLink to="/Statistics" >Statistics</ActiveLink>
-            <ActiveLink to="/Applied Jobs" >Applied Jobs</ActiveLink>
+            <ActiveLink to="/AppliedList" >Applied Jobs</ActiveLink>
             <ActiveLink to="/Blog">Blog</ActiveLink> 
             
           </Nav>

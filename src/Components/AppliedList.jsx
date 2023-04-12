@@ -1,10 +1,10 @@
 import React from 'react';
-import { getStoredCart } from '../utils/fakeDB';
+
 import { useLoaderData } from 'react-router-dom';
 import Appitems from './Appitems';
 
-const AppliedJobs = () => {
 
+const AppliedList = () => {
     const {initialCart , products } = useLoaderData()
     //console.log(appdata)
     
@@ -13,7 +13,7 @@ const AppliedJobs = () => {
         <div>
             <h1 className='bg-light text-center pb-5'>Applied Job Item</h1>
              <div className='shop-container'>
-            <div className='review-container'>
+            <div className='review-container '>
                 {
                     initialCart.map(product => <Appitems
                         key={product.id}
@@ -27,4 +27,4 @@ const AppliedJobs = () => {
     );
 };
 
-export default AppliedJobs;
+export default AppliedList;

@@ -16,8 +16,8 @@ const handleShowDetails = (id)=>{
 console.log(bl);
     return (
         <div>
-            <div className="d-flex  justify-content-between bg-light">
-                <div className='w-25 h-25 mx-5'>
+            <div className="d-flex col-md-12 justify-content-sm-between bg-light">
+                <div className='w-25 h-25 mx-5 mx-md-5'>
                     <h1 style={{
                         paddingTop: "80px", paddingLeft: "30px",
                         fontSize: "50px"

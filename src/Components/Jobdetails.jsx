@@ -56,7 +56,7 @@ borderRadius: "8px"}}>
                         <div className='d-flex mx-5'><img style={{ width: "20px", height: "20px", marginTop: "7px", marginRight: "5px" }} src={address} alt="" /><p class="card-text fs-6 pt-2">Address : {Jobdetail.location} </p>
                         </div>
                        </div>
-                       <button onClick={()=>handleShowDetails(Jobdetail.id)} className="btnwe my-5 col-md-12 align-items-center fw-bolder fs-5 text-white">Apply Now</button>
+                       <button onClick={()=>(alert("Sceessfully Apply"),handleShowDetails(Jobdetail.id))} className="btnwe my-5 col-md-12 align-items-center fw-bolder fs-5 text-white">Apply Now</button>
                 </div>
 
             </div>

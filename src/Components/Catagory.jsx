@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import List from './list';
+
 
 const Catagory = () => {
     const [products, setPro] = useState([])

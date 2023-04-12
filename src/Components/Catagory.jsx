@@ -15,7 +15,7 @@ const Catagory = () => {
             <h1 className='pt-5'>Job Category List</h1>
             <p className='pt-0'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
-            <div className='row d-flex justify-content-evenly px-5'style={{marginBottom:"20px",marginTop:"30px"}}>
+            <div className='row d-flex justify-content-evenly px-5 mt-sm-5'style={{marginBottom:"20px",marginTop:"30px"}}>
             
                 {
                    products.map(product=><div className=' col-md-2 mb-sm-5 mb-md-0 card mx-3 border-0 fs-4 fw-bold text-start' style={{background: "linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)"

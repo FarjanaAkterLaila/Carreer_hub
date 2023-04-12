@@ -8,7 +8,7 @@ const Featured = ({ job , handleShowDetails }) => {
   // //console.log(job.id)
    const {id} = job
   return (
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="card rounded-4">
         <div class="card-body text-start">
           <img className='w-50' style={{ height: "100px" }} src={job.company_logo}

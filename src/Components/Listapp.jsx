@@ -20,10 +20,10 @@ setItems(updateiteams)
              <div className='shop-container'>
              <div className='d-grid gap-2 d-md-flex justify-content-md-end' >
              
-          <button  class="  btnwe dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
+          <button  class="  btnwe fw-bolder fs-5 text-white dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
             Filter By
           </button>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu fs-4">
             <li><a class="dropdown-item" href="#" onClick={()=>filterItem('Remote')}>Remote</a></li>
             <li><a class="dropdown-item" href="#" onClick={()=>filterItem('Onsite')}>On-site</a></li>
           </ul>

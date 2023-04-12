@@ -28,7 +28,7 @@ const Appitems = ({ product }) => {
 
             </div>
 
-            <button onClick={() => navigate(`/Jobdetail/${id}`)} className="btnwe ms-auto  fw-bolder fs-5 text-white my-5 mx-3"><Link>View Details</Link>
+            <button onClick={() => navigate(`/Jobdetail/${id}`)} className="btnwe ms-auto  fw-bolder fs-5 text-white my-5 mx-3">View Details
             </button>
         </div>
 

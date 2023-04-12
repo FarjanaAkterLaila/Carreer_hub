@@ -7,11 +7,13 @@ import { useLoaderData } from 'react-router-dom';
 
 const Header = () => {
     const [visidle,setvisible]=useState(4);
+    const [showButton ,setbutton]=useState(true);
     const jobdata = useLoaderData()
     //console.log(jobdata);
     const [bl, setBlog] = useState([])
     const showMore=()=>{
-        setvisible((prevalue)=> prevalue+3)
+        setvisible(6)
+        setbutton(false);
     }
 const handleShowDetails = (id)=>{
     const newBlog = [...bl, id];
@@ -48,7 +50,8 @@ console.log(bl);
 
                             // <p className='col-md-1 col-lg-6' key={job.id}>{job.job_title}</p>
                         }
-                         <button onClick={showMore} className="btnwe  fw-bolder fs-5 text-white w-25 ms-auto me-auto mx-5">See More</button>
+                         {
+                            showButton && <button onClick={showMore} className="btnwe  fw-bolder fs-5 text-white w-25 ms-auto me-auto mx-5">See More</button>}
                     </div>
                 </div>
             </div>

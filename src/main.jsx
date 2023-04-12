@@ -11,10 +11,12 @@ import {
 import Header from './Components/Header';
 import Catagory from './Components/Catagory';
 import Featured from './Components/Featured';
-import Statistics from './Statistics';
+
 import AppliedJobs from './Components/AppliedJobs';
 import Blog from './Components/Blog';
 import Jobdetails from './Components/Jobdetails';
+import { productsAndCartData } from './loaders/getCart&ProductsData';
+import Statistics from './Components/Statistics';
 
 
 const router = createBrowserRouter([
@@ -30,12 +32,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/Statistics',
-        element:<Statistics></Statistics>,
+        element:<Statistics></Statistics>
         
       },
       {
         path: '/Applied Jobs',
-        element:<AppliedJobs></AppliedJobs>
+        element:<AppliedJobs></AppliedJobs>,
+        loader: productsAndCartData,
         
       },
       {

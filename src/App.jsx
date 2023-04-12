@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Navbar from './Components/Navbar/Navbar'
+import Navbars from './Components/Navbar/Navbars'
 import { Outlet } from 'react-router-dom'
 import Catagory from './Components/Catagory'
 
@@ -13,7 +13,7 @@ function App() {
  
   return (
     <div>
-    <Navbar></Navbar>
+    <Navbars></Navbars>
 
     <Outlet></Outlet>
    

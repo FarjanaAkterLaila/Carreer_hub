@@ -4,7 +4,7 @@
            "title": "Technology",
           
            "readTime":75,
-          "img":"../src/assets/Icons/chip 1.png"
+          "img":"https://cdn-icons-png.flaticon.com/512/87/87166.png?w=740&t=st=1681287688~exp=1681288288~hmac=839364377688366e87dd37cea98fc693ff4a5cf20c30d86e5f7150c6e7e48c5b"
           
        },
     {
@@ -12,7 +12,7 @@
             "title": "Marketing",
           
            "readTime":100,
-          "img":"../src/assets/Icons/accounts 1.png"
+          "img":"https://img.freepik.com/free-icon/office-fax-symbol_318-9276.jpg?w=740&t=st=1681287629~exp=1681288229~hmac=6d4c71a360ae5f7084014581af5512f079872bddadbb66507df04236a08540a1"
           
        },
     {
@@ -20,7 +20,7 @@
            "title": "Finance",
           
            "readTime":250,
-           "img":"../src/assets/Icons/business 1.png"
+           "img":"https://cdn-icons-png.flaticon.com/512/70/70018.png?w=740&t=st=1681287772~exp=1681288372~hmac=3ad448dec00a5d57dd09f5b7085a096bd0c0950fca35d5985538a10d45533b4a"
           
            
        },
@@ -29,7 +29,7 @@
            "title": "Healthcare",
           
            "readTime":10,
-           "img":"../src/assets/Icons/Frame.png"
+           "img":"https://cdn-icons-png.flaticon.com/512/99/99502.png?w=740&t=st=1681287807~exp=1681288407~hmac=7ab68e992de6f43a74b6466845056233c2cd86894d0063a29cf3dcbf6b346a5e"
           
            
        }

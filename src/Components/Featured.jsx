@@ -8,7 +8,7 @@ const Featured = ({ job , handleShowDetails }) => {
   // //console.log(job.id)
    const {id} = job
   return (
-    <div class="col-sm-5">
+    <div class="col-sm-6">
       <div class="card rounded-4">
         <div class="card-body text-start">
           <img className='w-50' style={{ height: "100px" }} src={job.company_logo}
@@ -20,10 +20,10 @@ const Featured = ({ job , handleShowDetails }) => {
             <button class="btn btn-outline-primary" type="button">{job.remote_or_onsite}</button>
             <button class="btn btn-outline-primary mx-3" type="button">{job.fulltime_or_parttime}</button>
           </div>
-          <div className='d-flex'>
+          <div className='d-sm-inline-flex justify-content-sm-start flex-row align-items-sm-start'>
             <div className='d-flex'><img style={{ width: "20px", height: "20px", marginTop: "7px", marginRight: "5px" }} src={locapic} alt="" /><p class="card-text fs-6 pt-2">{job.location} </p>
             </div>
-            <div className='d-flex mx-5'><img style={{ width: "20px", height: "20px", marginTop: "7px", marginRight: "5px" }} src={dollarpic} alt="" /><p class="card-text fs-6 pt-2">Salary : {job.salary} </p>
+            <div className='d-flex mx-5 '><img style={{ width: "20px", height: "20px", marginTop: "7px", marginRight: "5px" }} src={dollarpic} alt="" /><p class="card-text fs-6 pt-2">Salary : {job.salary} </p>
             </div>
           </div>
           <button onClick={()=>navigate(`Jobdetail/${id}`)} className="btnwe fw-bolder fs-5 text-white mt-3">View Details

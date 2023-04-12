@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Button } from 'bootstrap';
 
 const Navbars = () => {
     return (
@@ -21,11 +22,11 @@ const Navbars = () => {
           >
              <ActiveLink to="/" >Home</ActiveLink>
             <ActiveLink to="/Statistics" >Statistics</ActiveLink>
-            <ActiveLink to="/AppliedList" >Applied Jobs</ActiveLink>
+            <ActiveLink to="/Listapp" >Applied Jobs</ActiveLink>
             <ActiveLink to="/Blog">Blog</ActiveLink> 
             
           </Nav>
-          <button className="btnwe fw-bolder fs-5 text-white mx-5">Star Applying</button>
+          <button className="btnwe fw-bolder fs-5 text-white mx-3">Star Applying</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

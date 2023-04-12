@@ -1,7 +1,7 @@
 import React from 'react';
 import locapic from '../assets/Icons/Location Icon.png'
 import dollarpic from '../assets/Icons/Frame.png'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Appitems = ({ product }) => {
     const navigate = useNavigate()
     const {id, job_title, company_logo, company_name, remote_or_onsite, fulltime_or_parttime, salary, location } = product;
@@ -28,7 +28,7 @@ const Appitems = ({ product }) => {
          
             </div>
             
-            <button onClick={()=>navigate(`Jobdetail/${id}`)} className="btnwe ms-auto  fw-bolder fs-5 text-white my-5 mx-3">View Details
+            <button onClick={() => navigate(`/Jobdetail/${id}`)} className="btnwe ms-auto  fw-bolder fs-5 text-white my-5 mx-3"><Link>View Details</Link>
           </button>
           </div>
        

@@ -1,10 +1,8 @@
 import React from 'react';
-
 import { useLoaderData } from 'react-router-dom';
 import Appitems from './Appitems';
 
-
-const AppliedList = () => {
+const Listapp = () => {
     const {initialCart , products } = useLoaderData()
     //console.log(appdata)
     
@@ -27,4 +25,4 @@ const AppliedList = () => {
     );
 };
 
-export default AppliedList;
+export default Listapp;

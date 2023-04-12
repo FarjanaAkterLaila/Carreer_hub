@@ -16,9 +16,11 @@ import Featured from './Components/Featured';
 import Blog from './Components/Blog';
 import Jobdetails from './Components/Jobdetails';
 import { productsAndCartData } from './loaders/getCart&ProductsData';
+
 import Statistics from './Components/Statistics';
 import ErrorPage from './Components/ErrorPage';
-import AppliedList from './Components/AppliedList';
+import Listapp from './Components/Listapp';
+
 
 
 
@@ -40,8 +42,8 @@ const router = createBrowserRouter([
         
       },
       {
-        path: '/AppliedList',
-        element:<AppliedList></AppliedList>,
+        path:'/Listapp',
+        element:<Listapp></Listapp>,
         loader: productsAndCartData
         
       },

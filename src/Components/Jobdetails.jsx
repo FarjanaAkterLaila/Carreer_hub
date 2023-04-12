@@ -11,7 +11,7 @@ const Jobdetails = () => {
     let Jobdetail = {};
     const [job, setjob] = useState([]);
     useEffect(() => {
-        fetch('/public/jobdata.json')
+        fetch("/jobdata.json")
             .then(res => res.json())
             .then(data => setjob(data))
     }, []);
@@ -30,7 +30,7 @@ const Jobdetails = () => {
             <h1 className='bg-light py-5' style={{ textAlign: 'center' }}>Job Detail Page</h1>
             <div className='row mt-5'>
 
-                <div className='col-md-6 mx-5 '>
+                <div className='col-sm-6 mx-5 '>
                     <p className='fs-4 fw-bold'>Job Description:  <span className='fs-5 fw-normal'>{Jobdetail.job_description}</span></p>
                     <p className='fs-4 fw-bold'>Job Responsibility:  <span className='fs-5 fw-normal'>{Jobdetail.job_responsibility}</span></p>
                     <p className='fs-4 fw-bold'>Educational Requirements: <p className='fs-5 fw-normal'>{Jobdetail.educational_requirements}</p></p>
